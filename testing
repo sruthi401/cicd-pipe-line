@@ -1,0 +1,7 @@
+echo "# cicd-pipe-line" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/sruthi401/cicd-pipe-line.git
+git push -u origin main
